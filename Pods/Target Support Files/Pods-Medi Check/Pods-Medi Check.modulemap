@@ -1,0 +1,6 @@
+framework module Pods_Medi_Check {
+  umbrella header "Pods-Medi Check-umbrella.h"
+
+  export *
+  module * { export * }
+}

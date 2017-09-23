@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01105E991F75DE8300B8DD1F /* SecondCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01105E981F75DE8300B8DD1F /* SecondCheckViewController.swift */; };
+		01105E9B1F75E3E700B8DD1F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01105E9A1F75E3E300B8DD1F /* icon.png */; };
+		01105E9F1F75E9AA00B8DD1F /* ThirdCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01105E9E1F75E9AA00B8DD1F /* ThirdCheckViewController.swift */; };
+		01105EA11F75EB1900B8DD1F /* LastCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01105EA01F75EB1900B8DD1F /* LastCheckViewController.swift */; };
+		01105EA31F75F5A800B8DD1F /* MersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01105EA21F75F5A800B8DD1F /* MersViewController.swift */; };
+		014271321F757A9000EF13C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014271311F757A9000EF13C6 /* AppDelegate.swift */; };
+		014271391F757A9000EF13C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014271381F757A9000EF13C6 /* Assets.xcassets */; };
+		0142713C1F757A9000EF13C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0142713A1F757A9000EF13C6 /* LaunchScreen.storyboard */; };
+		014271461F757E2100EF13C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014271451F757E2100EF13C6 /* MainViewController.swift */; };
+		0142714A1F75852100EF13C6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014271491F75852100EF13C6 /* MapViewController.swift */; };
+		0142714E1F7585CE00EF13C6 /* SearchMedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142714D1F7585CE00EF13C6 /* SearchMedicineViewController.swift */; };
+		014271501F75881400EF13C6 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0142714F1F75881400EF13C6 /* UIColor.swift */; };
+		014271661F75A12A00EF13C6 /* Cabin-Bold-TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 014271651F7593C800EF13C6 /* Cabin-Bold-TTF.ttf */; };
+		014271671F75A12C00EF13C6 /* NanumSquareRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 014271641F7593C000EF13C6 /* NanumSquareRegular.ttf */; };
+		014271681F75A12D00EF13C6 /* NanumSquareLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 014271611F7593BF00EF13C6 /* NanumSquareLight.ttf */; };
+		014271691F75A12F00EF13C6 /* NanumSquareExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 014271631F7593C000EF13C6 /* NanumSquareExtraBold.ttf */; };
+		0142716A1F75A13100EF13C6 /* NanumSquareBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 014271621F7593C000EF13C6 /* NanumSquareBold.ttf */; };
+		014271791F75B36F00EF13C6 /* ic_mediinfo_generalmedi.png in Resources */ = {isa = PBXBuildFile; fileRef = 014271731F75A95B00EF13C6 /* ic_mediinfo_generalmedi.png */; };
+		0142717A1F75B37200EF13C6 /* ic_mediinfo_promedi.png in Resources */ = {isa = PBXBuildFile; fileRef = 014271751F75A95B00EF13C6 /* ic_mediinfo_promedi.png */; };
+		0142717B1F75B37400EF13C6 /* ic_nearhospital_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 014271781F75A95B00EF13C6 /* ic_nearhospital_marker.png */; };
+		0142717C1F75B37600EF13C6 /* ic_radiobox_check.png in Resources */ = {isa = PBXBuildFile; fileRef = 014271761F75A95B00EF13C6 /* ic_radiobox_check.png */; };
+		0142717D1F75B37800EF13C6 /* ic_radiobox_uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 014271771F75A95B00EF13C6 /* ic_radiobox_uncheck.png */; };
+		0142717E1F75B37A00EF13C6 /* ic_sidebar_dianositcrecord.png in Resources */ = {isa = PBXBuildFile; fileRef = 0142716B1F75A95A00EF13C6 /* ic_sidebar_dianositcrecord.png */; };
+		0142717F1F75B37C00EF13C6 /* ic_sidebar_dianosticrecord_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 014271701F75A95B00EF13C6 /* ic_sidebar_dianosticrecord_white.png */; };
+		014271801F75B37E00EF13C6 /* ic_sidebar_mediinfo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 014271721F75A95B00EF13C6 /* ic_sidebar_mediinfo_white.png */; };
+		014271811F75B38000EF13C6 /* ic_sidebar_mediinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0142716F1F75A95B00EF13C6 /* ic_sidebar_mediinfo.png */; };
+		014271821F75B38200EF13C6 /* ic_sidebar_nearhospital_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 014271741F75A95B00EF13C6 /* ic_sidebar_nearhospital_white.png */; };
+		014271831F75B38400EF13C6 /* ic_sidebar_nearhospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 0142716E1F75A95A00EF13C6 /* ic_sidebar_nearhospital.png */; };
+		014271841F75B38500EF13C6 /* pic_main_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0142716C1F75A95A00EF13C6 /* pic_main_logo.png */; };
+		014271851F75B38700EF13C6 /* pic_medisearch_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 014271711F75A95B00EF13C6 /* pic_medisearch_logo.png */; };
+		014271861F75B38900EF13C6 /* pic_splash_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0142716D1F75A95A00EF13C6 /* pic_splash_logo.png */; };
+		014271881F75B75000EF13C6 /* FirstCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014271871F75B75000EF13C6 /* FirstCheckViewController.swift */; };
+		892AF07E13541C3B0625B4CD /* Pods_Medi_Check.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E109485795A5807716F05239 /* Pods_Medi_Check.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01105E981F75DE8300B8DD1F /* SecondCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCheckViewController.swift; sourceTree = "<group>"; };
+		01105E9A1F75E3E300B8DD1F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "../../../../Downloads/Medicheck-master/Icons/mipmap-xxxhdpi/icon.png"; sourceTree = "<group>"; };
+		01105E9E1F75E9AA00B8DD1F /* ThirdCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdCheckViewController.swift; sourceTree = "<group>"; };
+		01105EA01F75EB1900B8DD1F /* LastCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastCheckViewController.swift; sourceTree = "<group>"; };
+		01105EA21F75F5A800B8DD1F /* MersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MersViewController.swift; sourceTree = "<group>"; };
+		0142712E1F757A9000EF13C6 /* Medi Check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medi Check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		014271311F757A9000EF13C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		014271381F757A9000EF13C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0142713B1F757A9000EF13C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0142713D1F757A9000EF13C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		014271451F757E2100EF13C6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		014271491F75852100EF13C6 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0142714D1F7585CE00EF13C6 /* SearchMedicineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMedicineViewController.swift; sourceTree = "<group>"; };
+		0142714F1F75881400EF13C6 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		014271611F7593BF00EF13C6 /* NanumSquareLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumSquareLight.ttf; path = "../../../../../Downloads/Medicheck-master/Fonts/Nanum_Square/NanumSquareLight.ttf"; sourceTree = "<group>"; };
+		014271621F7593C000EF13C6 /* NanumSquareBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumSquareBold.ttf; path = "../../../../../Downloads/Medicheck-master/Fonts/Nanum_Square/NanumSquareBold.ttf"; sourceTree = "<group>"; };
+		014271631F7593C000EF13C6 /* NanumSquareExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumSquareExtraBold.ttf; path = "../../../../../Downloads/Medicheck-master/Fonts/Nanum_Square/NanumSquareExtraBold.ttf"; sourceTree = "<group>"; };
+		014271641F7593C000EF13C6 /* NanumSquareRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumSquareRegular.ttf; path = "../../../../../Downloads/Medicheck-master/Fonts/Nanum_Square/NanumSquareRegular.ttf"; sourceTree = "<group>"; };
+		014271651F7593C800EF13C6 /* Cabin-Bold-TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cabin-Bold-TTF.ttf"; path = "../../../../../Downloads/Medicheck-master/Fonts/Cabin/Cabin-Bold-TTF.ttf"; sourceTree = "<group>"; };
+		0142716B1F75A95A00EF13C6 /* ic_sidebar_dianositcrecord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_sidebar_dianositcrecord.png; path = "../../../../Downloads/Medicheck-master/Resource_xxxhdpi/ic_sidebar_dianositcrecord.png"; sourceTree = "<group>"; };
+		0142716C1F75A95A00EF13C6 /* pic_main_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic_main_logo.png; path = "../../../../Downloads/Medicheck-master/Resource_xxxhdpi/pic_main_logo.png"; sourceTree = "<group>"; };
+		0142716D1F75A95A00EF13C6 /* pic_splash_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic_splash_logo.png; path = "../../../../Downloads/Medicheck-master/Resource_xxxhdpi/pic_splash_logo.png"; sourceTree = "<group>"; };
+		0142716E1F75A95A00EF13C6 /* ic_sidebar_nearhospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_sidebar_nearhospital.png; path = "../../../../Downloads/Medicheck-master/Resource_xxxhdpi/ic_sidebar_nearhospital.png"; sourceTree = "<group>"; };
+		0142716F1F75A95B00EF13C6 /* ic_sidebar_mediinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_sidebar_mediinfo.png; path = "../../../../Downloads/Medicheck-master/Resource_xxxhdpi/ic_sidebar_mediinfo.png"; sourceTree = "<group>"; };
+		014271701F75A95B00EF13C6 /* ic_sidebar_dianosticrecord_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_sidebar_dianosticrecord_white.png; path = "../../../../Downloads/Medicheck-master/Resource_xxxhdpi/ic_sidebar_dianosticrecord_white.png"; sourceTree = "<group>"; };
+		014271711F75A95B00EF13C6 /* pic_medisearch_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pic_medisearch_logo.png; path = "../../../../Downloads/Medicheck-master/Resource_xxxhdpi/pic_medisearch_logo.png"; sourceTree = "<group>"; };
+		014271721F75A95B00EF13C6 /* ic_sidebar_mediinfo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_sidebar_mediinfo_white.png; path = "../../../../Downloads/Medicheck-master/Resource_xxxhdpi/ic_sidebar_mediinfo_white.png"; sourceTree = "<group>"; };
+		014271731F75A95B00EF13C6 /* ic_mediinfo_generalmedi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_mediinfo_generalmedi.png; path = "../../../../Downloads/Medicheck-master/Resource_xxxhdpi/ic_mediinfo_generalmedi.png"; sourceTree = "<group>"; };
+		014271741F75A95B00EF13C6 /* ic_sidebar_nearhospital_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_sidebar_nearhospital_white.png; path = "../../../../Downloads/Medicheck-master/Resource_xxxhdpi/ic_sidebar_nearhospital_white.png"; sourceTree = "<group>"; };
+		014271751F75A95B00EF13C6 /* ic_mediinfo_promedi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_mediinfo_promedi.png; path = "../../../../Downloads/Medicheck-master/Resource_xxxhdpi/ic_mediinfo_promedi.png"; sourceTree = "<group>"; };
+		014271761F75A95B00EF13C6 /* ic_radiobox_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_radiobox_check.png; path = "../../../../Downloads/Medicheck-master/Resource_xxxhdpi/ic_radiobox_check.png"; sourceTree = "<group>"; };
+		014271771F75A95B00EF13C6 /* ic_radiobox_uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_radiobox_uncheck.png; path = "../../../../Downloads/Medicheck-master/Resource_xxxhdpi/ic_radiobox_uncheck.png"; sourceTree = "<group>"; };
+		014271781F75A95B00EF13C6 /* ic_nearhospital_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_nearhospital_marker.png; path = "../../../../Downloads/Medicheck-master/Resource_xxxhdpi/ic_nearhospital_marker.png"; sourceTree = "<group>"; };
+		014271871F75B75000EF13C6 /* FirstCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCheckViewController.swift; sourceTree = "<group>"; };
+		20C1315FCD4F402EF87CE2C0 /* Pods-Medi Check.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medi Check.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Medi Check/Pods-Medi Check.debug.xcconfig"; sourceTree = "<group>"; };
+		41E6DE633A97218F7D8BE6E5 /* Pods-Medi Check.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medi Check.release.xcconfig"; path = "Pods/Target Support Files/Pods-Medi Check/Pods-Medi Check.release.xcconfig"; sourceTree = "<group>"; };
+		E109485795A5807716F05239 /* Pods_Medi_Check.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Medi_Check.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0142712B1F757A9000EF13C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892AF07E13541C3B0625B4CD /* Pods_Medi_Check.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014271251F757A9000EF13C6 = {
+			isa = PBXGroup;
+			children = (
+				014271511F75935E00EF13C6 /* image */,
+				014271301F757A9000EF13C6 /* Medi Check */,
+				0142712F1F757A9000EF13C6 /* Products */,
+				E2F5E2EB7CD8BB7D6BCA784F /* Pods */,
+				C69B226308F59DDC17B68662 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0142712F1F757A9000EF13C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0142712E1F757A9000EF13C6 /* Medi Check.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		014271301F757A9000EF13C6 /* Medi Check */ = {
+			isa = PBXGroup;
+			children = (
+				014271311F757A9000EF13C6 /* AppDelegate.swift */,
+				014271381F757A9000EF13C6 /* Assets.xcassets */,
+				0142713A1F757A9000EF13C6 /* LaunchScreen.storyboard */,
+				0142713D1F757A9000EF13C6 /* Info.plist */,
+				0142714F1F75881400EF13C6 /* UIColor.swift */,
+				014271451F757E2100EF13C6 /* MainViewController.swift */,
+				014271491F75852100EF13C6 /* MapViewController.swift */,
+				0142714D1F7585CE00EF13C6 /* SearchMedicineViewController.swift */,
+				014271871F75B75000EF13C6 /* FirstCheckViewController.swift */,
+				01105E981F75DE8300B8DD1F /* SecondCheckViewController.swift */,
+				01105E9E1F75E9AA00B8DD1F /* ThirdCheckViewController.swift */,
+				01105EA01F75EB1900B8DD1F /* LastCheckViewController.swift */,
+				01105EA21F75F5A800B8DD1F /* MersViewController.swift */,
+				014271601F7593B600EF13C6 /* ttf */,
+			);
+			path = "Medi Check";
+			sourceTree = "<group>";
+		};
+		014271511F75935E00EF13C6 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				01105E9A1F75E3E300B8DD1F /* icon.png */,
+				014271731F75A95B00EF13C6 /* ic_mediinfo_generalmedi.png */,
+				014271751F75A95B00EF13C6 /* ic_mediinfo_promedi.png */,
+				014271781F75A95B00EF13C6 /* ic_nearhospital_marker.png */,
+				014271761F75A95B00EF13C6 /* ic_radiobox_check.png */,
+				014271771F75A95B00EF13C6 /* ic_radiobox_uncheck.png */,
+				0142716B1F75A95A00EF13C6 /* ic_sidebar_dianositcrecord.png */,
+				014271701F75A95B00EF13C6 /* ic_sidebar_dianosticrecord_white.png */,
+				014271721F75A95B00EF13C6 /* ic_sidebar_mediinfo_white.png */,
+				0142716F1F75A95B00EF13C6 /* ic_sidebar_mediinfo.png */,
+				014271741F75A95B00EF13C6 /* ic_sidebar_nearhospital_white.png */,
+				0142716E1F75A95A00EF13C6 /* ic_sidebar_nearhospital.png */,
+				0142716C1F75A95A00EF13C6 /* pic_main_logo.png */,
+				014271711F75A95B00EF13C6 /* pic_medisearch_logo.png */,
+				0142716D1F75A95A00EF13C6 /* pic_splash_logo.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		014271601F7593B600EF13C6 /* ttf */ = {
+			isa = PBXGroup;
+			children = (
+				014271621F7593C000EF13C6 /* NanumSquareBold.ttf */,
+				014271631F7593C000EF13C6 /* NanumSquareExtraBold.ttf */,
+				014271611F7593BF00EF13C6 /* NanumSquareLight.ttf */,
+				014271641F7593C000EF13C6 /* NanumSquareRegular.ttf */,
+				014271651F7593C800EF13C6 /* Cabin-Bold-TTF.ttf */,
+			);
+			path = ttf;
+			sourceTree = "<group>";
+		};
+		C69B226308F59DDC17B68662 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E109485795A5807716F05239 /* Pods_Medi_Check.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2F5E2EB7CD8BB7D6BCA784F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20C1315FCD4F402EF87CE2C0 /* Pods-Medi Check.debug.xcconfig */,
+				41E6DE633A97218F7D8BE6E5 /* Pods-Medi Check.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0142712D1F757A9000EF13C6 /* Medi Check */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014271401F757A9000EF13C6 /* Build configuration list for PBXNativeTarget "Medi Check" */;
+			buildPhases = (
+				CD6C6DB1558327B7FE8975B5 /* [CP] Check Pods Manifest.lock */,
+				0142712A1F757A9000EF13C6 /* Sources */,
+				0142712B1F757A9000EF13C6 /* Frameworks */,
+				0142712C1F757A9000EF13C6 /* Resources */,
+				7A1D262E85F68AC9B5D445A0 /* [CP] Embed Pods Frameworks */,
+				52483235BDCC7C2AA0B83635 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Medi Check";
+			productName = "Medi Check";
+			productReference = 0142712E1F757A9000EF13C6 /* Medi Check.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		014271261F757A9000EF13C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "김민서";
+				TargetAttributes = {
+					0142712D1F757A9000EF13C6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 014271291F757A9000EF13C6 /* Build configuration list for PBXProject "Medi Check" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 014271251F757A9000EF13C6;
+			productRefGroup = 0142712F1F757A9000EF13C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0142712D1F757A9000EF13C6 /* Medi Check */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0142712C1F757A9000EF13C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014271791F75B36F00EF13C6 /* ic_mediinfo_generalmedi.png in Resources */,
+				0142716A1F75A13100EF13C6 /* NanumSquareBold.ttf in Resources */,
+				014271851F75B38700EF13C6 /* pic_medisearch_logo.png in Resources */,
+				014271861F75B38900EF13C6 /* pic_splash_logo.png in Resources */,
+				0142717A1F75B37200EF13C6 /* ic_mediinfo_promedi.png in Resources */,
+				014271671F75A12C00EF13C6 /* NanumSquareRegular.ttf in Resources */,
+				01105E9B1F75E3E700B8DD1F /* icon.png in Resources */,
+				0142717C1F75B37600EF13C6 /* ic_radiobox_check.png in Resources */,
+				014271691F75A12F00EF13C6 /* NanumSquareExtraBold.ttf in Resources */,
+				014271681F75A12D00EF13C6 /* NanumSquareLight.ttf in Resources */,
+				0142713C1F757A9000EF13C6 /* LaunchScreen.storyboard in Resources */,
+				0142717E1F75B37A00EF13C6 /* ic_sidebar_dianositcrecord.png in Resources */,
+				014271821F75B38200EF13C6 /* ic_sidebar_nearhospital_white.png in Resources */,
+				014271811F75B38000EF13C6 /* ic_sidebar_mediinfo.png in Resources */,
+				014271801F75B37E00EF13C6 /* ic_sidebar_mediinfo_white.png in Resources */,
+				014271391F757A9000EF13C6 /* Assets.xcassets in Resources */,
+				0142717F1F75B37C00EF13C6 /* ic_sidebar_dianosticrecord_white.png in Resources */,
+				014271841F75B38500EF13C6 /* pic_main_logo.png in Resources */,
+				014271831F75B38400EF13C6 /* ic_sidebar_nearhospital.png in Resources */,
+				0142717D1F75B37800EF13C6 /* ic_radiobox_uncheck.png in Resources */,
+				014271661F75A12A00EF13C6 /* Cabin-Bold-TTF.ttf in Resources */,
+				0142717B1F75B37400EF13C6 /* ic_nearhospital_marker.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52483235BDCC7C2AA0B83635 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Medi Check/Pods-Medi Check-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A1D262E85F68AC9B5D445A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Medi Check/Pods-Medi Check-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD6C6DB1558327B7FE8975B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0142712A1F757A9000EF13C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014271881F75B75000EF13C6 /* FirstCheckViewController.swift in Sources */,
+				01105E9F1F75E9AA00B8DD1F /* ThirdCheckViewController.swift in Sources */,
+				01105EA11F75EB1900B8DD1F /* LastCheckViewController.swift in Sources */,
+				014271461F757E2100EF13C6 /* MainViewController.swift in Sources */,
+				014271501F75881400EF13C6 /* UIColor.swift in Sources */,
+				01105EA31F75F5A800B8DD1F /* MersViewController.swift in Sources */,
+				01105E991F75DE8300B8DD1F /* SecondCheckViewController.swift in Sources */,
+				014271321F757A9000EF13C6 /* AppDelegate.swift in Sources */,
+				0142714A1F75852100EF13C6 /* MapViewController.swift in Sources */,
+				0142714E1F7585CE00EF13C6 /* SearchMedicineViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0142713A1F757A9000EF13C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0142713B1F757A9000EF13C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0142713E1F757A9000EF13C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0142713F1F757A9000EF13C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		014271411F757A9000EF13C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C1315FCD4F402EF87CE2C0 /* Pods-Medi Check.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZESNLFKEBA;
+				INFOPLIST_FILE = "Medi Check/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gimminseo.Medi-Check";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		014271421F757A9000EF13C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E6DE633A97218F7D8BE6E5 /* Pods-Medi Check.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZESNLFKEBA;
+				INFOPLIST_FILE = "Medi Check/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gimminseo.Medi-Check";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		014271291F757A9000EF13C6 /* Build configuration list for PBXProject "Medi Check" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0142713E1F757A9000EF13C6 /* Debug */,
+				0142713F1F757A9000EF13C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		014271401F757A9000EF13C6 /* Build configuration list for PBXNativeTarget "Medi Check" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014271411F757A9000EF13C6 /* Debug */,
+				014271421F757A9000EF13C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 014271261F757A9000EF13C6 /* Project object */;
+}
