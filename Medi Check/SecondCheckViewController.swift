@@ -61,7 +61,7 @@ class SecondCheckViewController: UIViewController, UIPickerViewDelegate, UIPicke
     }
     
     @objc func moveToNext() {
-        self.navigationController?.pushViewController(LastCheckViewController(), animated: true)
+        self.navigationController?.pushViewController(ThirdCheckViewController(), animated: true)
         var arr1 = pickerView_1.selectedRow(inComponent: 0)
         var arr2 = pickerView_2.selectedRow(inComponent: 0)
         
